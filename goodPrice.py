@@ -1,0 +1,7 @@
+SP=int(input("Enter the price of spec sauce: "))
+FP=int(input("Enter the price of fancy sauce: "))
+NP=int(input("Enter the price of normal sauce: "))
+seaweed=int(input("enter the price of seaweed: "))
+print("for spec sauce the price of each chopped fish is:", (SP-seaweed*9)/135)
+print("for fancy sauce the price of each chopped fish is:", (FP-seaweed*3)/45)
+print("for normal sauce the price of each chopped fish is:", (NP-seaweed*1)/15)
